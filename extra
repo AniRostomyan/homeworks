@@ -1,3 +1,4 @@
+//Extra (tpel X-ik)
 let columnCount = +prompt();
 let rowCount = columnCount;
 let row = "";
@@ -14,3 +15,9 @@ for(let i = 0; i < rowCount; i++){
     row = "";
 }
 console.log(matrix)
+
+// console anel arrayi bolor elementnery
+let arr = [1, 2, 'Ani', 'Rostomyan', 'age', 22];
+for(let i = 0; i < arr.length; i++){
+    console.log(arr[i])
+}
