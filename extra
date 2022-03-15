@@ -1,0 +1,16 @@
+let columnCount = +prompt();
+let rowCount = columnCount;
+let row = "";
+let matrix = '';
+for(let i = 0; i < rowCount; i++){
+    for(let j = 1; j <= columnCount; j++){
+        if(j === i + 1 || j === columnCount - i  ){
+            row += "*"
+        }else{
+            row +=" "
+        }
+    }
+    matrix += row + '\n';
+    row = "";
+}
+console.log(matrix)
